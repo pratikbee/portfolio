@@ -1,28 +1,19 @@
 import {
   mobile,
   backend,
-  creator,
+  
   web,
   javascript,
-  typescript,
+  
   html,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+ 
   cognizant,
   memories,
   netflix,
@@ -98,10 +89,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  
   
   {
     name: "git",
