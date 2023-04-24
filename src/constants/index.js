@@ -23,6 +23,18 @@ import {
   jobit,
   tripguide,
   threejs,
+  cognizant,
+  memories,
+  netflix,
+  chatapp,
+  codeeditor,
+  Omnifood,
+  alan,
+  vue,
+  vscode,
+  webpack,
+  linux,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -53,10 +65,7 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  
 ];
 
 const technologies = [
@@ -72,10 +81,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
@@ -96,77 +102,38 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
+  {name:"vue",icon:vue},
+  {name:"vscode",icon:vscode},
+  {name:"webpack",icon:webpack},
+  {name:"python",icon:python},
+  {name:"linux",icon:linux},
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    title: "Software Developer",
+    company_name: "Cognizant",
+    icon: cognizant,
+    iconBg: "#ffffff",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "2 years of experience in developing UIs and apps in React environment.",
+      "Managing and Collaborating with cross-functional teams for ideating on new features to ensure seamless User Experience.",
+      "Experience in debugging and delivered performance improvement by 40% in ReactJS environment",
+      "Worked with tools like redux, jest, webpack, vite, code sandbox and React libraries",
+      "Experience in frameworks for Webapp with Vue and hybrid apps with React-native.",
+      "Participation in code reviews for resolving queries and constructive feedback as per knowledge."
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
+  
+  
 ];
 
 const testimonials = [
@@ -198,33 +165,31 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "OmniFood",
+    description: "A start-up inspired, catchy and user-friendly website, build with HTML,CSS and SCSS for flavour. Responsive and UX is kept in mind while developing the above-mentioned",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Omnifood,
+    source_code_link: "https://pratikbee.github.io/Omnifood/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Netflix mobile app",
+    description: "A full fledged Netflix clone mobile app powered by React-Native and axios for REST api calls for movie/shows data.",
     tags: [
       {
-        name: "react",
+        name: "React-Native",
         color: "blue-text-gradient",
       },
       {
@@ -232,33 +197,108 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "React-Navigation",
         color: "pink-text-gradient",
       },
+      {
+        name: "Android",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: netflix,
+    source_code_link: "https://github.com/pratikbee/Netflix_RN",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Memories",
+    description: "A social hub where users are able to share/post/like eachothers posts, inspired by instagram and powered by React",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Redux, Redux-thunk",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Firebase/Rest_api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Material_UI",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: memories,
+    source_code_link: "https://memories-pratikbee.netlify.app/",
+  },
+  {
+    name: "Chat App",
+    description: "A fun, easy to use Chatting room, where each member can chat with eachother and share their daily gossips.",
+    tags: [
+      {
+        name: "VueJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase/Rest_api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chatapp,
+    source_code_link: "https://pratik-vue-app.onrender.com/",
+  },
+  {
+    name: "Online Code-editor",
+    description: "An online Code-editor powered by React, supports coding in 5 languages including, Python, Java, C, C++ and the evergreen JavaScript.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Fileloader",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJS and ExpressJS ",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: codeeditor,
+    source_code_link: "https://github.com/pratikbee/Code_Editor",
+  },
+  {
+    name: "AI based news app",
+    description: "A voice support news app for queries and searches for what is happening around the globe.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Alan AI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rest API ",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: alan,
+    source_code_link: "https://github.com/pratikbee/artificial",
   },
 ];
 

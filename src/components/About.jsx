@@ -15,11 +15,11 @@ const ServiceCard = ({ index, title, icon }) => (
     >
       <div
         options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
+          max: 55,
+          scale: 2,
+          speed: 1000,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary  rounded-[20px] py-5 px-12 min-h-[320px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -43,18 +43,12 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        I'm a skilled software developer with experience in developing web views, and expertise in frameworks like React, Vue, React Native, Node.js, and Next.js. I rely on my skeptical approach in taking important decisions and currently meticulously working on
+        technical skills to be industry ready for attaining desired goals. A quick learner and have keen interest in learning bleeding-edge technologies and keep progressing.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className="mt-20 flex justify-between gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
