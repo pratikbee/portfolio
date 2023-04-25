@@ -36,8 +36,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+   
           
-          
+ 
+
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Pratik &nbsp;
             <span className="sm:block hidden"> | Software developer</span>
