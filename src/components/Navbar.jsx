@@ -36,10 +36,6 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-   
-          
- 
-
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Pratik &nbsp;
             <span className="sm:block hidden"> | Software developer</span>
@@ -49,7 +45,15 @@ const Navbar = () => {
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li key={nav.id} className={`${active === nav.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(nav.title)}>
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.id === "resume" ? (
+                <a  href="src\assets\Rezume (7).pdf">
+                  {nav.title}
+                </a>
+              ) : (
+                <a href={`#${nav.id}`}>
+                  {nav.title}
+                </a>
+              )}
             </li>
           ))}
         </ul>
