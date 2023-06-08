@@ -46,7 +46,7 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li key={nav.id} className={`${active === nav.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(nav.title)}>
               {nav.id === "resume" ? (
-                <a  href="src\assets\Rezume (7).pdf">
+                <a  href="src\assets\Rezume.pdf">
                   {nav.title}
                 </a>
               ) : (
