@@ -44,11 +44,11 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in developing web views, and expertise in frameworks like React, Vue, React Native, Node.js, and Next.js. I rely on my skeptical approach in taking important decisions and currently meticulously working on
-        technical skills to be industry ready for attaining desired goals. A quick learner and have keen interest in learning bleeding-edge technologies and keep progressing.
+        I'm a skilled software developer with experience in developing web views, and expertise in frameworks like React, Vue, React Native, Node.js, and Next.js. I rely on my skeptical approach in taking important decisions and currently
+        meticulously working on technical skills to be industry ready for attaining desired goals. A quick learner and have keen interest in learning bleeding-edge technologies and keep progressing.
       </motion.p>
 
-      <div className="mt-20 flex justify-between gap-10">
+      <div className="max-[600px]:flex-col mt-20 flex justify-between gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
